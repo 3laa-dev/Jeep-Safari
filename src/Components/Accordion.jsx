@@ -60,6 +60,7 @@ function Accordion_() {
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
+
                 <Accordion.Header>Highlights</Accordion.Header>
                 <Accordion.Body>
                     <Row>
@@ -86,6 +87,43 @@ function Accordion_() {
                     </Row>
                 </Accordion.Body>
             </Accordion.Item>
+
+            <Accordion.Item eventKey="2">
+                <Accordion.Header>Description</Accordion.Header>
+                <Accordion.Body>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus culpa odio atque incidunt iste delectus quibusdam ipsum praesentium? Officiis voluptatum, cum ipsa ab at fugiat voluptate tempore explicabo atque nostrum.
+                </Accordion.Body>
+            </Accordion.Item>
+
+            <Accordion.Item eventKey="3">
+                <Accordion.Header>Before you go</Accordion.Header>
+                <Accordion.Body>
+                     <div className="feature-item">
+                            <i class="fa-regular fa-hand-point-right"></i>
+                            <span>Bring swimwear and a towel for the river swimming stop</span>
+                    </div>
+                    <div className="feature-item">
+                            <i class="fa-regular fa-hand-point-right"></i>
+                            <span>Wear comfortable clothing and closed shoes that can handle dust</span>
+                    </div>
+                    <div className="feature-item">
+                            <i class="fa-regular fa-hand-point-right"></i>
+                            <span>Use sun protection and bring sunglasses for the open jeep ride</span>
+                    </div>
+                    <div className="feature-item">
+                            <i class="fa-regular fa-hand-point-right"></i>
+                            <span>Pack phones and cameras in a sealed bag because water splashing is part of the day</span>
+                    </div>
+                    <div className="feature-item">
+                            <i class="fa-regular fa-hand-point-right"></i>
+                            <span>Hotel pickup is earlier than the listed start time and is confirmed after your reservation</span>
+                    </div>
+                    
+
+                </Accordion.Body>
+            </Accordion.Item>
+
+
         </Accordion>
     );
 }
