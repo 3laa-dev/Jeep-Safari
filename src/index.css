@@ -73,6 +73,8 @@ a {
    NAVBAR
 ========================= */
 
+
+
 .main-navbar {
   position: fixed !important;
 
@@ -96,6 +98,24 @@ a {
   box-shadow: 0 8px 30px rgba(11, 31, 58, 0.06);
 }
 
+.navbar-toggle {
+  
+
+  padding: 8px;
+
+  border-width: 0px  !important;
+  border-radius: 10px !important;
+  border-style: none;
+  
+
+  box-shadow: none !important;
+}
+
+
+
+.navbar-toggle:focus {
+  box-shadow: none !important;
+}
 
 /* Brand */
 
@@ -267,3 +287,208 @@ a {
 .slider{
   border-radius: 30px;
 }
+
+/* Time Line */
+
+/* =========================
+   TIMELINE
+========================= */
+
+.timeline {
+  position: relative;
+
+  max-width: 850px;
+
+  margin: 0 auto;
+
+  padding: 30px 0;
+}
+
+
+/* =========================
+   VERTICAL LINE
+========================= */
+
+.timeline::before {
+  content: "";
+
+  position: absolute;
+
+  top: 30px;
+  bottom: 30px;
+
+  left: 25px;
+
+  width: 2px;
+
+  background: rgba(11, 31, 58, 0.12);
+}
+
+
+/* =========================
+   TIMELINE ITEM
+========================= */
+
+.timeline-item {
+  position: relative;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 25px;
+
+  min-height: 100px;
+
+  padding-bottom: 35px;
+}
+
+
+/* =========================
+   ICON
+========================= */
+
+.timeline-icon {
+  position: relative;
+
+  z-index: 2;
+
+  flex-shrink: 0;
+
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: var(--color-navy);
+
+  color: #ffffff;
+
+  font-size: 1rem;
+
+  box-shadow:
+    0 5px 15px rgba(11, 31, 58, 0.15),
+    0 0 0 5px var(--color-bg);
+
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition);
+}
+
+
+/* =========================
+   ICON HOVER
+========================= */
+
+.timeline-item:hover .timeline-icon {
+  transform: scale(1.06);
+
+  box-shadow:
+    0 8px 20px rgba(11, 31, 58, 0.20),
+    0 0 0 5px var(--color-bg);
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.timeline-content {
+  flex: 1;
+
+  padding-top: 2px;
+}
+
+
+.timeline-content h3 {
+  margin: 0 0 6px;
+
+  color: var(--color-navy);
+
+  font-size: 1.25rem;
+
+  font-weight: 750;
+
+  line-height: 1.35;
+
+  letter-spacing: -0.3px;
+}
+
+
+.timeline-content p {
+  margin: 0;
+
+  max-width: 700px;
+
+  color: var(--color-text-muted);
+
+  font-size: 1rem;
+
+  line-height: 1.7;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .timeline {
+    padding: 20px 0;
+  }
+
+
+  /* Vertical Line */
+
+  .timeline::before {
+    top: 20px;
+    bottom: 20px;
+
+    left: 22px;
+  }
+
+
+  /* Item */
+
+  .timeline-item {
+    gap: 16px;
+
+    padding-bottom: 28px;
+  }
+
+
+  /* Icon */
+
+  .timeline-icon {
+    width: 44px;
+    height: 44px;
+
+    font-size: 0.9rem;
+
+    box-shadow:
+      0 5px 15px rgba(11, 31, 58, 0.15),
+      0 0 0 4px var(--color-bg);
+  }
+
+
+  /* Content */
+
+  .timeline-content h3 {
+    font-size: 1.05rem;
+  }
+
+
+  .timeline-content p {
+    font-size: 0.9rem;
+
+    line-height: 1.6;
+  }
+}
+
+
