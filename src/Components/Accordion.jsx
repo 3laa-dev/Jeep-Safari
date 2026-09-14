@@ -63,7 +63,7 @@ function Accordion_() {
                 <Accordion.Header>Highlights</Accordion.Header>
                 <Accordion.Body>
                     <Row>
-                        <Col>
+                        <Col sm="6" xs="12">
                             <div className='highlights-item'>
                                 Family jeep safari through the Taurus Mountains above Alanya
                             </div>
@@ -75,7 +75,7 @@ function Accordion_() {
                             </div>
 
                         </Col>
-                        <Col>
+                        <Col sm="6" xs="12">
                             <div className='highlights-item'>
                                 Off-road tracks with panoramic viewpoints over the bay
                             </div>
