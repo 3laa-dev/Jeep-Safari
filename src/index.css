@@ -583,3 +583,15 @@ a {
 .text-qa{
   color:var(--color-navy);
 }
+
+.footer{
+  background-color: var(--color-navy-dark);
+  height: 500px;
+  padding: 50px;
+  color:#ffffff
+}
+
+.map{
+  border-radius: 10px;
+  height: auto;
+}

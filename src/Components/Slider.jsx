@@ -3,7 +3,7 @@ import image from '../assets/FULL_5bf504de-daf9-44f6-b6e6-5a0661a2745f.jpg'
 import { Container } from 'react-bootstrap';
 function Slider() {
   return (
-    <Container>
+    <Container id='home'>
    
       <Carousel >
       

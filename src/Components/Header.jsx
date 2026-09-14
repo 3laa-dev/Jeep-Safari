@@ -35,8 +35,8 @@ function NavBar() {
           <Col sm="4" xs="12">
             <Nav className="navbar-links">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">FAQ</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#FAQ">FAQ</Nav.Link>
+            <Nav.Link href="#footer">Contact</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
           </Nav>
           </Col>

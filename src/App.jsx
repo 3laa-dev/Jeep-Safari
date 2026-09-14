@@ -5,6 +5,7 @@ import {Container} from "react-bootstrap"
 import TimeLine from "./Components/TimeLine"
 import Accordion_ from "./Components/Accordion"
 import QA from "./Components/Questions"
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
         <QA/>
       </Row>
       </Container>
-
+    <Footer/>
     </>
   )
 }

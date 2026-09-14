@@ -2,8 +2,8 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function QA() {
     return (
-        <div className=''>
-            <div className='py-3 text-qa '>
+        <div className='' id='FAQ'>
+            <div className='py-3 text-qa ' >
                 <h3>
                     Frequently Asked Questions
                 </h3>
