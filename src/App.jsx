@@ -18,7 +18,9 @@ function App() {
             <Accordion_/>
         </Col>
         <Col sm="4">
-            <TimeLine/>
+            <div className="timeline-sidebar">
+                <TimeLine />
+            </div>
         </Col>
       </Row>
       </Container>
