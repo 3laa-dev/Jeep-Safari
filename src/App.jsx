@@ -4,6 +4,7 @@ import { Row , Col} from "react-bootstrap"
 import {Container} from "react-bootstrap"
 import TimeLine from "./Components/TimeLine"
 import Accordion_ from "./Components/Accordion"
+import QA from "./Components/Questions"
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
                 <TimeLine />
             </div>
         </Col>
+      </Row>
+      <Row>
+        <QA/>
       </Row>
       </Container>
 
