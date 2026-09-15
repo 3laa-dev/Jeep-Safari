@@ -8,6 +8,7 @@ import QA from "./Components/Questions"
 import Footer from "./Components/Footer"
 import HomePageCardRow from "./Components/HomePageCardRow"
 import ReviewsSection from "./Components/ReviewsSecion"
+import ToursSection from "./Components/ToursSecion"
 
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
       </Row>
       <Row>
         <ReviewsSection/>
+      </Row>
+      <Row>
+        <ToursSection/>
       </Row>
       <Row>
         <QA/>
