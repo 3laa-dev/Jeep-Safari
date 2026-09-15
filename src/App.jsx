@@ -6,6 +6,7 @@ import TimeLine from "./Components/TimeLine"
 import Accordion_ from "./Components/Accordion"
 import QA from "./Components/Questions"
 import Footer from "./Components/Footer"
+import HomePageCardRow from "./Components/HomePageCardRow"
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
                 <TimeLine />
             </div>
         </Col>
+      </Row>
+      <Row>
+        <HomePageCardRow/>
       </Row>
       <Row>
         <QA/>

@@ -92,6 +92,13 @@ function Accordion_() {
                 <Accordion.Header>Description</Accordion.Header>
                 <Accordion.Body>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus culpa odio atque incidunt iste delectus quibusdam ipsum praesentium? Officiis voluptatum, cum ipsa ab at fugiat voluptate tempore explicabo atque nostrum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nemo ad veniam odit in doloribus recusandae, consequatur, eveniet, nostrum deleniti vel veritatis debitis est! Ratione optio eius possimus nesciunt illum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi, dolorum debitis, quod aspernatur quidem soluta odio quam eum excepturi sunt? Animi eius accusamus fugit impedit, soluta suscipit. Corporis, alias?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In laudantium fugiat rem optio debitis commodi voluptates sapiente? Nobis nostrum earum, beatae nulla reiciendis, itaque esse ipsam iste dicta, impedit rerum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eaque quaerat error! Ipsa vel temporibus amet accusamus et magni deleniti quisquam veritatis. Omnis aperiam aliquid excepturi deserunt totam rerum inventore.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo, ut omnis eum natus tempora eaque ipsam ex molestiae officiis ad labore expedita quod, soluta dignissimos quia excepturi velit quibusdam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cupiditate non consequatur doloribus ipsum veritatis quidem temporibus quo maiores id dolorem, nulla quaerat modi accusamus architecto obcaecati atque sint fuga?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus tempora incidunt facere officia quisquam nostrum itaque repellat, quae magnam dolor alias pariatur delectus. Doloribus quo nam dolor vitae molestiae est?
                 </Accordion.Body>
             </Accordion.Item>
 
