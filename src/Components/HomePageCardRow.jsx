@@ -9,7 +9,7 @@ const HomePageCardRow = () => {
       <Col xs = "12" sm = "6"  lg="4" className="my-1">
       <HomePageCard number={2} icon = "fa-solid fa-shield" miniTitle="Transfer" title="Comfortable & Timely Transfers" text=" Comfortable & timely transfers from Side region."/>
       </Col>
-      <Col xs = "12" sm = "6"  lg="4" className="my-1">
+      <Col xs = "12" sm = "12"  lg="4" className="my-1">
       <HomePageCard number={3} icon = "fa-solid fa-shield" miniTitle="Transfer" title="Comfortable & Timely Transfers" text=" Comfortable & timely transfers from Side region."/>
       </Col>
       

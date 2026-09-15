@@ -7,6 +7,7 @@ import Accordion_ from "./Components/Accordion"
 import QA from "./Components/Questions"
 import Footer from "./Components/Footer"
 import HomePageCardRow from "./Components/HomePageCardRow"
+import ReviewsSection from "./Components/ReviewsSecion"
 
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
       </Row>
       <Row>
         <HomePageCardRow/>
+      </Row>
+      <Row>
+        <ReviewsSection/>
       </Row>
       <Row>
         <QA/>
